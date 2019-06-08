@@ -1,0 +1,53 @@
+/* add your CSS here */
+#outline
+{
+	margin: 30px auto;
+	border: 1px solid lightgrey;
+	box-shadow: 10px 10px #e6e6e6;
+	width: 320px;
+}
+#inner
+{
+	margin: 10px;
+	border: 1px solid lightgrey;
+}
+h3
+{
+	padding: 10px 10px;
+	margin: 10px 0px;
+	font-size: 24px;
+}
+img
+{
+	padding: 0px 10px;
+}
+#fact
+{
+	font-style: italic;
+	padding: 0px 10px;
+}
+ul
+{
+	margin: 0px;
+	padding: 0px 10px;
+}
+li
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.bold
+{
+	font-weight: bold;
+}
+#info
+{
+	padding: 0px 10px;
+	
+}
+.link
+{
+  vertical-align: super;
+  font-size: smaller;
+}
