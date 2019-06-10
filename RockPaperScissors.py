@@ -112,8 +112,8 @@ class Game:
             "4: Human Player\n"
             "5: Surprise Me (Picks betweens options 1-3)\n")
         while(opponentInt not in ['1', '2', '3', '4', '5']):
-            opponentInt =
-            input("Invalid Input. Please select a number between 1 and 5: ")
+            opponentInt = input(
+                                "Invalid Input. Please select a number between 1 and 5: ")
         opponent = [RandomPlayer(), ReflectPlayer(),
                     CyclePlayer(), HumanPlayer()]
         if(opponentInt == "5"):
